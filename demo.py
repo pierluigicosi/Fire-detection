@@ -30,6 +30,6 @@ article = "<p style='text-align: center'>YOLOv5 is a family of compound-scaled o
           "and export to ONNX, CoreML and TFLite. <a href='https://github.com/ultralytics/yolov5'>Source code</a> |" \
           "<a href='https://apps.apple.com/app/id1452689527'>iOS App</a> | <a href='https://pytorch.org/hub/ultralytics_yolov5'>PyTorch Hub</a></p>"
 
-examples = [['fire/test/images/fire.103.png'], ['fire/test/images/fire.158.png'],['fire/test/images/fire.204.png']]
+examples = [['example/fire.103.png'], ['example/fire.158.png'],['example/fire.204.png']]
 gr.Interface(yolo, inputs, outputs, title=title, description=description, article=article, examples=examples).launch(
     debug=True)
