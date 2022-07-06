@@ -4,7 +4,7 @@
 
 -The dataset used can be found and downloaded at [Dataset](https://drive.google.com/drive/folders/1BGMfCWDbS_sGB_HE3pLMpmFt6ixDRIxm?usp=sharing).
 
-
+### Demo
 -To use the demo with the best model that i achieved (`best.pt`):
 * clone this repository (`git clone https://github.com/pierluigicosi/Fire-detection`) 
 * clone the yolov5 repository (`git clone https://github.com/ultralytics/yolov5`) 
