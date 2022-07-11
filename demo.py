@@ -23,7 +23,7 @@ inputs = gr.inputs.Image(type='pil', label="Original Image")
 outputs = gr.outputs.Image(type="pil", label="Output Image")
 
 
-title = "YOLOv5 Fire Detection"
+title = "Fire Detection with YOLOv5"
 description = "YOLOv5 demo for fire detection. Upload an image or click an example image to use."
 article = "<p style='text-align: center'>YOLOv5 is a family of compound-scaled object detection models trained on the COCO dataset, and includes " \
           "simple functionality for Test Time Augmentation (TTA), model ensembling, hyperparameter evolution, " \
